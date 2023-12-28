@@ -15,7 +15,7 @@
         }
 
         header {
-            background-color: #333;
+            background-color: ;
             color: #fff;
             text-align: center;
             padding: 1em;
@@ -55,24 +55,28 @@
 
     <nav>
         <a href="#首頁">首頁</a>
-        <a href="#公司介紹">公司介紹</a>
+        <a href="#關於我們">關於我們</a>
         <a href="#承攬業務">承攬業務</a>
         <a href="#聯絡我們">聯絡我們</a>
+	<a href="#工程施作">工程施作</a>
     </nav>
 
     <main>
         <section id="首頁">
-            <h2>Welcome to Your Company</h2>
-            <p>Providing top-notch services to meet your needs.</p>
+            <h2>Welcome to 瓚陞工程 Zan-Shen MEP Engineering.</h2>
+            <p>公司介紹... 瓚陞工程 provides the top-notch services in mechanical, eletrical, and plumping engineering. We devote our professional implement the engineering. To build Safety is our top priority. </p>
+	<! img src="path/to/your/image1.jpg" alt="Company Image 1">
+	   
         </section>
 
-        <section id="公司介紹">
-            <h2>About Us</h2>
-            <p>Your company's story and mission.</p>
+        <section id="關於我們">
+            <h2>關於我們</h2>
+            <p>瓚陞工程成立於19XX年...</p>
         </section>
 
         <section id="承攬業務">
-            <h2>Our Services</h2>
+            <h2>承攬業務</h2> 
+	    <! Add breif introduction to each term (?)>
             <ul>
                 <li>高低壓工程</li>
                 <li>防爆工程</li>
@@ -87,12 +91,46 @@
         </section>
 
         <section id="聯絡我們">
-            <h2>Contact Us</h2>
+            <h2>聯絡我們</h2>
 	    <p>聯絡人: 吳豐吉
             <p>電子郵件: v861220@yahoo.com.tw</p>
-            <p>聯絡電話: 0933347147</p>
-	    <p>聯絡電話: (06) 2663670
+            <p>聯絡電話: 0933347147 & (06) 2663670</p>
+	    <p>營業時間: 0800 - 1800
         </section>
+        
+        
+
+	<section id="工程施作">
+	    <h2>工程施作</h2>
+	  .column {
+  		float: left;
+		width: 33.33%;
+  		padding: 5px;
+		}
+
+
+	     .row::after {
+		content: "";
+  		clear: both;
+  		display: table;
+		}
+	    
+            <div class="row">
+		<div class="column">
+		<img src="1.jpg" alt="Snow" style="width:100%">
+  		</div>
+
+  		<div class="column">
+    		<img src="2.jpg" alt="Forest" style="width:100%">
+  		</div>
+
+  		<div class="column">
+    		<img src="3.jpg" alt="Mountains" style="width:100%">
+  		</div>
+	     </div>
+	   
+
+
     </main>
 
     <footer>
